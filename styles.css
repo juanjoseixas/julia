@@ -2,7 +2,35 @@ body {
 
   background-color: darkblue;
   color: white;
+  padding: 3em;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
 }
 
-h1 {font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;}
+.content {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 2em;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+}
+
+h1 {
+
+  font-weight: normal;
+  font-size: 2em;
+}
+
+p {font-size: 1.5em;}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
