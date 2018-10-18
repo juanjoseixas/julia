@@ -1,5 +1,7 @@
 function setup() {
   createCanvas(1280, 1080);
+  background('darkblue');
+  noStroke();
 }
 
 function draw() {
