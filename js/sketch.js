@@ -19,7 +19,7 @@ function draw() {
     x = random(width);
 
     if(random() > 0.7) {
-        r = random(6, 10);
+        r = random(6, 20);
     } else {
         r = random(1, 5);
     }
