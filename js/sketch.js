@@ -1,11 +1,17 @@
 var x, r, y;
 
-function setup() {
-    createCanvas(800, 600);
 
-    noStroke();
-    background('darkblue');
-    y = 0;
+
+function setup() {
+  var canvas = createCanvas(windowWidth /1.6, 300);
+  canvas.parent('sketch-holder');
+  background('darkblue');
+  noStroke();
+  y = 0;
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth /1.6 , 300);
 }
 
 function draw() {
